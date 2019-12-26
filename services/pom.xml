@@ -10,13 +10,12 @@
       <version>1.0-SNAPSHOT</version>
    </parent>
 
-   <artifactId>control-center</artifactId>
+   <artifactId>services</artifactId>
    <packaging>pom</packaging>
 
-   <name>Control Center</name>
+   <name>Services</name>
 
    <modules>
-      <module>config-server</module>
-      <module>service-registry</module>
+      <module>protected-rest-resource</module>
    </modules>
 </project>

@@ -3,6 +3,9 @@ zuul:
   sensitiveHeaders:
 
   routes:
+    protected-rest-resource:
+      path: '/protected-rest-resource/**'
+      serviceId: 'protected-rest-resource'
     ui-resources:
       path: '/ui-resources/**'
       serviceId: 'ui-resources'

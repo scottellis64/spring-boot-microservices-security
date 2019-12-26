@@ -1,0 +1,4 @@
+/Users/sellis42/projects/optum/tutorials/microservices/spring-boot-microservices-security/services/protected-rest-resource/src/main/java/com/sellis/services/rest/secured/ProtectedRestResourceApplication.java
+/Users/sellis42/projects/optum/tutorials/microservices/spring-boot-microservices-security/services/protected-rest-resource/src/main/java/com/sellis/services/rest/secured/api/beans/UserResponse.java
+/Users/sellis42/projects/optum/tutorials/microservices/spring-boot-microservices-security/services/protected-rest-resource/src/main/java/com/sellis/services/rest/secured/api/beans/AdminResponse.java
+/Users/sellis42/projects/optum/tutorials/microservices/spring-boot-microservices-security/services/protected-rest-resource/src/main/java/com/sellis/services/rest/secured/api/resource/ProtectedRestResource.java
