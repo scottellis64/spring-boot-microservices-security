@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: authentication-test-ui
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+server:
+  port: 8084
+  servlet:
+    context-path: /authtest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
