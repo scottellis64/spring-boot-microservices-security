@@ -10,7 +10,7 @@
    </parent>
 
    <artifactId>config-server</artifactId>
-   <name>config-server</name>
+   <name>Configuration Server</name>
    <description>Configuration server</description>
 
    <dependencies>

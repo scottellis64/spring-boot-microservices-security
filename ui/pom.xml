@@ -13,7 +13,7 @@
    <artifactId>ui</artifactId>
    <packaging>pom</packaging>
 
-   <name>ui</name>
+   <name>User Interfaces</name>
 
    <modules>
       <module>authentication-test-ui</module>
