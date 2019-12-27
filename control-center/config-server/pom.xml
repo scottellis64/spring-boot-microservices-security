@@ -13,6 +13,15 @@
    <name>Configuration Server</name>
    <description>Configuration server</description>
 
+   <profiles>
+      <profile>
+         <id>native</id>
+         <activation>
+            <activeByDefault>true</activeByDefault>
+         </activation>
+      </profile>
+   </profiles>
+
    <dependencies>
       <dependency>
          <groupId>org.springframework.cloud</groupId>

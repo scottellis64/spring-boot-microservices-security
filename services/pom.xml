@@ -17,5 +17,6 @@
 
    <modules>
       <module>protected-rest-resource</module>
+      <module>oauth2-server</module>
    </modules>
 </project>

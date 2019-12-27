@@ -9,3 +9,17 @@ zuul:
     ui-resources:
       path: '/ui-resources/**'
       serviceId: 'ui-resources'
+
+gateway-server: 'http://localhost:8901/authserver'
+
+security:
+  oauth2:
+    client:
+      client-id: ui
+      client-secret: uisecret
+      scope: ui
+      access-token-uri: ${gateway-server}/oauth/token
+      user-authorization-uri: ${gateway-server}/oauth/authorize
+      pre-established-redirect-uri: http://localhost:8084/authtest
+    resource:
+      user-info-uri: ${gateway-server}/userInfo

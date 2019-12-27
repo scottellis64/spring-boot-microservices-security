@@ -25,10 +25,25 @@ The entire project can be built from the root folder by typing:
 The projects must be started in this order:
 
 - control-center/config-server
+```bash
+./mvnw spring-boot:run -pl control-center/config-server
+```
 - control-center/service-registry
+```bash
+./mvnw spring-boot:run -pl control-center/service-registry
+```
 - services/protected-rest-resource
+```bash
+./mvnw spring-boot:run -pl services/protected-rest-resource
+```
 - ui/ui-resources
+```bash
+./mvnw spring-boot:run -pl ui/ui-resources
+```
 - ui/authentication-test-ui
+```bash
+./mvnw spring-boot:run -pl ui/authentication-test-ui
+```
 
 Here is generally how the application is configured:
 
