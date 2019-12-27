@@ -30,7 +30,6 @@
       <spring.cloud.version>Greenwich.SR1</spring.cloud.version>
       <springfox.swagger.version>2.9.2</springfox.swagger.version>
 
-      <oauth.version>2.3.5.RELEASE</oauth.version>
       <jwt.version>1.0.10.RELEASE</jwt.version>
 
       <commons.dbcp2.version>2.7.0</commons.dbcp2.version>
